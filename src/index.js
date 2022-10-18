@@ -1,17 +1,7 @@
 import ReactDOM from "react-dom/client";
-import NavBar from "./components/NavBar";
+import App from "./App";
 
-const rootElement = document.querySelector("#root");
 
-const root = ReactDOM.createRoot(rootElement);
-
-const App = () => {
-  return (
-    <>
-      <NavBar />
-      <div>hola</div>
-    </>
-  );
-};
+const root = ReactDOM.createRoot(document.querySelector("#root"));
 
 root.render(<App />);
