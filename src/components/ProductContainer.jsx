@@ -1,9 +1,9 @@
-
+import '../styles/ProductContainer.css'
 
 const ProductContainer = () => {
   return(
-    <section>
-      <h1>Our products</h1>
+    <section className="products_section">
+      <h1 className="products_title">Our products</h1>
     </section>
   )
 }
