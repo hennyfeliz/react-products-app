@@ -1,4 +1,5 @@
-import '../styles/Product.css'
+import "../styles/Product.css";
+import BuyButton from "./Button";
 
 const Product = () => {
   return (
@@ -8,11 +9,11 @@ const Product = () => {
         alt="products"
         className="product_img"
       />
-      <h2 className='product_name'>Ordenador</h2>
+      <h2 className="product_name">Ordenador</h2>
       <div className="product_details">
         <p className="product_oldprice">300</p>
         <p className="product_newprice">180</p>
-        <button className="">Buy</button>
+        <BuyButton />
       </div>
     </div>
   );

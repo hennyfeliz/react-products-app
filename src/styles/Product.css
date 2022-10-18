@@ -31,6 +31,7 @@
   margin-top: 16px;
   justify-content: space-between;
   color: var(--text);
+  align-items: center;
 }
 
 .product_oldprice{
@@ -41,5 +42,7 @@
   font-weight: bold;  
 }
 
+.buy_button{
 
+}
 
